@@ -1,11 +1,8 @@
-import React, { useRef, useState, useMemo } from "react";
+import React, { useRef, useMemo } from "react";
 import { Canvas, useFrame } from "react-three-fiber";
-import { softShadows, OrbitControls, MeshWobbleMaterial } from "drei";
-import { useSpring, animated } from "react-spring/three";
+import { softShadows, OrbitControls } from "drei";
 import * as THREE from "three/src/Three";
-import reactLogo from "./Assets/reactLogo.png";
-import nodeLogo from "./Assets/nodeLogo.png";
-import coding from "./Assets/coding.png";
+
 import Olanrewaju from "./Olanrewaju";
 
 softShadows();
